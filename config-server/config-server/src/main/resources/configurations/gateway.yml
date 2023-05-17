@@ -1,0 +1,30 @@
+eureka:
+  client:
+    register-with-eureka: false
+
+server:
+  port: 15003
+Spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        -  id: userManagement
+           uri: http://localhost:15002
+           predicates:
+             - Path=/api/v1/user/**
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
+
+
+
+
+
+
