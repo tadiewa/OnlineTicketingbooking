@@ -1,0 +1,40 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+server:
+  port: 15002
+
+Spring:
+  application:
+    name: userManagement
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://dpg-cge2gcik728lv80itdp0-a.oregon-postgres.render.com/amikodb_atzi
+    username: sa
+    password:  s8xQ9Ndhb4pJMxDyakdnOlamU0315qnd
+
+
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+    database: postgresql
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui-custom.html
+    operations-sorter: method
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

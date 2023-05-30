@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tadiewa</groupId>
-	<artifactId>userManagement</artifactId>
+	<artifactId>customer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>userManagement</name>
-	<description>Demo project for Spring Boot</description>
+	<name>customer</name>
+	<description>CustomerService</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.2</spring-cloud.version>
@@ -105,7 +105,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>userManagement</finalName>
+		<finalName>customer</finalName>
 	</build>
 	<repositories>
 		<repository>

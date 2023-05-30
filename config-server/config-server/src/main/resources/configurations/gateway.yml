@@ -17,6 +17,11 @@ Spring:
            uri: http://localhost:15002
            predicates:
              - Path=/api/v1/user/**
+        - id: customer
+          uri: http://localhost:15004
+          predicates:
+              - Path=/api/v1/customer/**
+
 management:
   tracing:
     sampling:

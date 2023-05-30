@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f77975-1a31-4ec7-b47e-051037282c54" name="Changes" comment="" />
+    <list default="true" id="36f77975-1a31-4ec7-b47e-051037282c54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/userManagement-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/customer/src/main/java/com/tadiewa/customer/exeception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/customer/src/main/java/com/tadiewa/customer/exeception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/customer/src/main/java/com/tadiewa/customer/exeception/Error.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/discovery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement/userManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement/userManagement/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +32,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,6 +50,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2PeBaqgFCj50LTwxf1XfPMqxYmP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../SMega/Mebanbo Ghana/policyManager/ecosure-policy-manager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway/gateway" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
@@ -56,13 +75,26 @@
       <recent name="com.tadiewa.userManagement" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tadiewa\Documents\java\springboot\spriprojects\OnlineTicketing" />
+      <recent name="C:\Users\tadiewa\Documents\java\springboot\spriprojects\OnlineTicketing\gateway\gateway" />
+      <recent name="C:\Users\tadiewa\Documents\java\springboot\spriprojects\OnlineTicketing\discovery\discovery" />
+      <recent name="C:\Users\tadiewa\Documents\java\springboot\spriprojects\OnlineTicketing\config-server\config-server" />
+      <recent name="C:\Users\tadiewa\Documents\java\springboot\spriprojects\OnlineTicketing\customer\customer" />
+      <recent name="C:\Users\tadiewa\Documents\java\springboot\spriprojects\OnlineTicketing\customer\customer\src\main\java\com\tadiewa\customer" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserManagementApplication">
+  <component name="RunManager" selected="Docker.docker-compose.yml.zipkin: Compose Deployment">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tadiewa.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tadiewa.customer.CustomerApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +116,8 @@
     <configuration name="UserManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="userManagement" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tadiewa.userManagement.UserManagementApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +148,15 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml.postgresql: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.zipkin: Compose Deployment" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.UserManagementApplication" />
+      <item itemvalue="Spring Boot.CustomerApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,8 +173,31 @@
       <workItem from="1684151889081" duration="12311000" />
       <workItem from="1684213216058" duration="1325000" />
       <workItem from="1684262036038" duration="2072000" />
-      <workItem from="1684292779969" duration="1755000" />
+      <workItem from="1684292779969" duration="2057000" />
+      <workItem from="1684379304839" duration="1932000" />
+      <workItem from="1684429502244" duration="4241000" />
+      <workItem from="1684483694075" duration="1262000" />
+      <workItem from="1684600608370" duration="3850000" />
+      <workItem from="1684747103910" duration="2631000" />
+      <workItem from="1684761075261" duration="7358000" />
+      <workItem from="1684831476109" duration="3141000" />
+      <workItem from="1684928178568" duration="2334000" />
+      <workItem from="1685298322399" duration="1338000" />
+      <workItem from="1685383553528" duration="595000" />
+      <workItem from="1685430287945" duration="706000" />
+      <workItem from="1685466203529" duration="4345000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
