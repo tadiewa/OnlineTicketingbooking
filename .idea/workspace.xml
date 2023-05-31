@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f77975-1a31-4ec7-b47e-051037282c54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/userManagement-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/customer/src/main/java/com/tadiewa/customer/exeception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/customer/src/main/java/com/tadiewa/customer/exeception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/customer/src/main/java/com/tadiewa/customer/exeception/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="36f77975-1a31-4ec7-b47e-051037282c54" name="Changes" comment="dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/gateway.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/discovery/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userManagement/userManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement/userManagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,6 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DELOMBOK_PRE_COMMIT" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -185,8 +177,17 @@
       <workItem from="1685298322399" duration="1338000" />
       <workItem from="1685383553528" duration="595000" />
       <workItem from="1685430287945" duration="706000" />
-      <workItem from="1685466203529" duration="4345000" />
+      <workItem from="1685466203529" duration="4740000" />
+      <workItem from="1685508840458" duration="404000" />
     </task>
+    <task id="LOCAL-00001" summary="dockerfile">
+      <created>1685471609419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685471609419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,5 +200,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="dockerfile" />
   </component>
 </project>
