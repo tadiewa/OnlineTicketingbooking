@@ -1,4 +1,4 @@
-FROM oracle jdk:17
+FROM openjdk:17
 EXPOSE 8098
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} configserver.jar
