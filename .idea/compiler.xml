@@ -10,10 +10,8 @@
         <module name="userManagement" />
         <module name="config-server" />
         <module name="discovery" />
-        <module name="policy-management-service" />
         <module name="gateway" />
         <module name="customer" />
-        <module name="billing-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

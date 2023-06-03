@@ -8,8 +8,6 @@
         <option value="$PROJECT_DIR$/discovery/discovery/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/customer/customer/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../SMega/bulkUploads/billing-service/billing-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../SMega/bulkUploads/policy-management/policy-management/pom.xml" />
       </list>
     </option>
   </component>

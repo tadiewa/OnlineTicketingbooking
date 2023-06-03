@@ -3,12 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/OnlineTicketing.iml" filepath="$PROJECT_DIR$/.idea/OnlineTicketing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../SMega/bulkUploads/billing-service/billing-service/billing-service.iml" filepath="$PROJECT_DIR$/../../../../SMega/bulkUploads/billing-service/billing-service/billing-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/customer/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer/customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery/discovery/discovery.iml" filepath="$PROJECT_DIR$/discovery/discovery/discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway/gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../SMega/bulkUploads/policy-management/policy-management/policy-management-service.iml" filepath="$PROJECT_DIR$/../../../../SMega/bulkUploads/policy-management/policy-management/policy-management-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/userManagement/userManagement/userManagement.iml" filepath="$PROJECT_DIR$/userManagement/userManagement/userManagement.iml" />
     </modules>
   </component>
