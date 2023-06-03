@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36f77975-1a31-4ec7-b47e-051037282c54" name="Changes" comment="changes in docker compose">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/config-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/discovery/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/discovery/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement/userManagement/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement/userManagement/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +200,9 @@
       <workItem from="1685466203529" duration="4740000" />
       <workItem from="1685508840458" duration="6440000" />
       <workItem from="1685608368409" duration="10375000" />
-      <workItem from="1685683385622" duration="1056000" />
+      <workItem from="1685683385622" duration="8142000" />
+      <workItem from="1685692448760" duration="14844000" />
+      <workItem from="1685819377649" duration="536000" />
     </task>
     <task id="LOCAL-00001" summary="dockerfile">
       <created>1685471609419</created>
@@ -226,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685684291616</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changes in docker compose">
+      <created>1685684608612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685684608612</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
