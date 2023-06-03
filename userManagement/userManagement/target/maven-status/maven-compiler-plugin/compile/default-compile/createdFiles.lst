@@ -1,0 +1,10 @@
+com\tadiewa\userManagement\exeception\BadRequestException.class
+com\tadiewa\userManagement\model\Uzar$UzarBuilder.class
+com\tadiewa\userManagement\exeception\BaseException.class
+com\tadiewa\userManagement\repository\UserRepository.class
+com\tadiewa\userManagement\Service\UserServiceImpl.class
+com\tadiewa\userManagement\model\Uzar.class
+com\tadiewa\userManagement\UserManagementApplication.class
+com\tadiewa\userManagement\Controller\UserController.class
+com\tadiewa\userManagement\Service\UserService.class
+com\tadiewa\userManagement\exeception\Error.class
