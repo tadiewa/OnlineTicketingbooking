@@ -1,9 +1,9 @@
 eureka:
   instance:
-    hostname: localhost
+    hostname: https://discovery-w2k1.onrender.com
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: https://discovery-w2k1.onrender.com:8761/eureka
 
 
 server:
