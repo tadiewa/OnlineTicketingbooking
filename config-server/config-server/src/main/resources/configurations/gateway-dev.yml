@@ -14,7 +14,7 @@ Spring:
           enabled: true
       routes:
         -  id: userManagement
-           uri: http://localhost:15002
+           uri: http://https://uaa.onrender.com:15002
            predicates:
              - Path=/api/v1/user/**
         - id: customer

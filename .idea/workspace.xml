@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f77975-1a31-4ec7-b47e-051037282c54" name="Changes" comment="target">
+    <list default="true" id="36f77975-1a31-4ec7-b47e-051037282c54" name="Changes" comment="updates in config-sever urls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/customer-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/customer-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/discovery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/discovery.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/userManagement-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/userManagement-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/customer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/discovery/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userManagement/userManagement/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement/userManagement/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/gateway-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/config-server/src/main/resources/configurations/gateway-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +200,7 @@
       <workItem from="1685683385622" duration="8142000" />
       <workItem from="1685692448760" duration="14844000" />
       <workItem from="1685819377649" duration="1579000" />
-      <workItem from="1685912865332" duration="516000" />
+      <workItem from="1685912865332" duration="1417000" />
     </task>
     <task id="LOCAL-00001" summary="dockerfile">
       <created>1685471609419</created>
@@ -264,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685820506677</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updates in config-sever urls">
+      <created>1685913638251</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685913638251</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updates in config-sever urls">
+      <created>1685913697631</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685913697631</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +290,7 @@
     <MESSAGE value="dockerfile" />
     <MESSAGE value="changes in docker compose" />
     <MESSAGE value="target" />
-    <option name="LAST_COMMIT_MESSAGE" value="target" />
+    <MESSAGE value="updates in config-sever urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates in config-sever urls" />
   </component>
 </project>
