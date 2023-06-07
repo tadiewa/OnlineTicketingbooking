@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: localhost
+    hostname: https://discovery-w2k1.onrender.com
   client:
     register-with-eureka: false
     fetch-registry: false
